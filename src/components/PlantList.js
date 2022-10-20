@@ -1,9 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import PlantCard from "./PlantCard";
 
-function PlantList() {
+function PlantList({ plants, search }) {
+
+  const filteredPlants = plants.filter((plant) => {
+    const upperCasePlant = plant.name.toUpperCase();
+    const upperSearch = search.toUpperCase();
+
+    return upperCasePlant.includes(upperSearch);
+  })
+
+  const updatedPlants = filteredPlants.map((plant) => {
+    return <PlantCard key={plant.id} plant={plant} />
+  })
+
   return (
-    <ul className="cards">{/* render PlantCards components in here */}</ul>
+    <ul className="cards">{updatedPlants}</ul>
   );
 }
 

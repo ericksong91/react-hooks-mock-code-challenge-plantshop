@@ -41,6 +41,42 @@
       "name": "Fiddle Leaf Fig",
       "image": "./images/fiddle-leaf-fig.jpg",
       "price": 55
+    },
+    {
+      "name": "Ehrik",
+      "image": "./images/zz-plant.jpg",
+      "price": 30,
+      "id": 8
+    },
+    {
+      "name": "Zerp",
+      "image": "./images/zz-plant.jpg",
+      "price": 230,
+      "id": 9
+    },
+    {
+      "name": "Rayza",
+      "image": "./images/zz-plant.jpg",
+      "price": 1230909,
+      "id": 10
+    },
+    {
+      "name": "Rayza 2",
+      "image": "./images/zz-plant.jpg",
+      "price": 123,
+      "id": 11
+    },
+    {
+      "name": "Rayza",
+      "image": "./images/zz-plant.jpg",
+      "price": 12314,
+      "id": 12
+    },
+    {
+      "name": "Rayza5",
+      "image": "./images/zz-plant.jpg",
+      "price": 12313,
+      "id": 13
     }
   ]
 }
